@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
         <div className='relative'>
-            <img className='max-w-[1170px]  w-[1170px] mx-auto' src="https://media.discordapp.net/attachments/1227348688356118558/1227349521999073290/TLMC_15.PNG.png?ex=66918d51&is=66903bd1&hm=e6c40ad23d2ea78d0e8ce145f765220a4259e08a654d890ca73fd357b1df84ab&=&format=webp&quality=lossless&width=889&height=464" alt="" />
+            <video className='px-5  plays-inline' src='../../../../Video/FONT_VIdeo.mp4' autoPlay loop muted playsInline></video>
             <div className='absolute top-56  left-[510px] text-center space-y-8'>
                 <h3 className='font-extrabold text-[#42f566] text-7xl'>BD</h3>
                 <h3 className='font-extrabold text-[#42f566] text-7xl'>PRIDE</h3>
